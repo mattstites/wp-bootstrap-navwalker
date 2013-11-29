@@ -116,7 +116,7 @@ Simply add a Link menu item with a **URL** of `#` and a **Link Text** or **Title
 
 Glyphicons
 ------------
-To add an Icon to your link simple place the Glyphicon class name in the links **Title Attribute** field and the class will do the rest. IE `glyphicon-bullhorn`
+To add an Icon to your link simple place the Glyphicon or Font Awesome class name in the links **Title Attribute** field and the class will do the rest. IE `glyphicon-bullhorn` or `fa-bullhorn`
 
 ![Header Example](http://edwardmcintyre.com/pub/github/navwalker-3-glyphicons.jpg)
 
@@ -134,6 +134,9 @@ To set a disabled link simoly set the **Title Attribute** to `disabled` and the 
 
 Changelog
 ------------
+**2.0.4-MS**
++ Added support for Font Awesome icons
+
 **2.0.4**
 + Updated fallback function to accept args array from wp_nav_menu
 
